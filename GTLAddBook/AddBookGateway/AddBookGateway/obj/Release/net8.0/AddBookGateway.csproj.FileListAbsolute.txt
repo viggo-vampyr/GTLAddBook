@@ -1,0 +1,4 @@
+C:\Users\prang\source\repos\Programmering\AddBookGateway\AddBookGateway\obj\Release\net8.0\AddBookGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prang\source\repos\Programmering\AddBookGateway\AddBookGateway\obj\Release\net8.0\AddBookGateway.AssemblyInfoInputs.cache
+C:\Users\prang\source\repos\Programmering\AddBookGateway\AddBookGateway\obj\Release\net8.0\AddBookGateway.AssemblyInfo.cs
+C:\Users\prang\source\repos\Programmering\AddBookGateway\AddBookGateway\obj\Release\net8.0\AddBookGateway.csproj.CoreCompileInputs.cache

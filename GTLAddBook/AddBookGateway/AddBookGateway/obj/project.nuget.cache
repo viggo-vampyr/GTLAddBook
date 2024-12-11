@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vw6+BvloO+FC6yFpLgs7ho52AI6IvKQKikeu8Y/nGnYFtBz+WbieReEfRZB1EfszqS/Ymcv3bIwpVSspqMIeKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookGateway\\AddBookGateway\\AddBookGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prang\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\prang\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\prang\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

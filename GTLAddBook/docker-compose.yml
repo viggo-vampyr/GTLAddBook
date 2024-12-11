@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  addbookgateway:
+    build:
+      context: ./AddBookGateway/AddBookGateway
+      dockerfile: Dockerfile
+    container_name: addbookgateway
+    ports:
+      - "5001:80"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - TRANSLATOR_SERVICE_URL=http://addbooktranslator:80
+      - QUEUE_Name=add-book_queue
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+
+  addbooktranslator:
+    build:
+      context: ./AddBookTranslator/AddBookTranslator
+      dockerfile: Dockerfile
+    container_name: addbooktranslator
+    ports:
+      - "5002:80"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    environment:
+      - RABBITMQ_URL=amqp://rabbitmq:5672
+      - QUEUE_Name=add-book_queue
+      - QUEUE_Name=translated-book_queue
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
+
+volumes:
+  rabbitmq_data:
