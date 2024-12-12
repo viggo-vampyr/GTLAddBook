@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj": {}
+    "C:\\repos\\GTLAddBook\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj": {
+    "C:\\repos\\GTLAddBook\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj",
+        "projectUniqueName": "C:\\repos\\GTLAddBook\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj",
         "projectName": "AddBookTranslator",
-        "projectPath": "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj",
-        "packagesPath": "C:\\Users\\prang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prang\\source\\repos\\Programmering\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\obj\\",
+        "projectPath": "C:\\repos\\GTLAddBook\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\AddBookTranslator.csproj",
+        "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\GTLAddBook\\GTLAddBook\\AddBookTranslator\\AddBookTranslator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\prang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -70,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
